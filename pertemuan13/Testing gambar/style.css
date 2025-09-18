@@ -1,0 +1,24 @@
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+h1 {
+    color: black;
+    text-align: center;
+    font-family: system-ui;
+    text-transform: uppercase   ;
+    text-shadow: 2px 5px 10px black;
+}
+section {
+    height: 100vh;
+    color: azure;
+    background-image: url('a4c0b1af253197d4837ff6760d5b81c0.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+    backdrop-filter: blur(10px);
+}

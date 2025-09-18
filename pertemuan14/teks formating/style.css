@@ -1,0 +1,25 @@
+header {
+    background: rgb(34,193,195);
+    background: linear-gradient(100deg, #252525 50%, #10aa4b 50%);
+    height: 100px;
+}
+h1 {
+    font-family: system-ui;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+    text-shadow: 4px 4px 2px #252525;
+}
+.ap {
+    font-family: system-ui;
+    text-decoration: underline wavy #10aa4b;
+    text-align: justify;
+}
+.pa {
+    width: 320px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

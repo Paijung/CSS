@@ -1,0 +1,53 @@
+body {
+  font-family: system-ui
+}
+h1 {
+  color: crimson;
+  text-shadow: 2px 2px 1px brown;
+}
+p.font-big {
+  font-size: xx-large;
+}
+p {
+  font-size: 16px;
+}
+p.font-small {
+  font-size: xx-small;
+}
+
+
+.font-lighter {
+  font-weight: lighter;
+}
+.font-normal {
+  font-weight: normal;
+}
+.font-bold {
+  font-weight: bold;
+}
+.font-bolder {
+  font-weight: bolder;
+}
+.font-bold-angka {
+  font-weight: 1000;
+}
+blockquote {
+  font-style: italic;
+}
+
+
+.font-sans-serif {
+  font-family: sans-serif;
+}
+.font-serif {
+  font-family: serif;
+}
+.font-monospace {
+  font-family: monospace;
+}
+.font-cursive {
+  font-family: cursive;
+}
+.font-fantasy {
+  font-family: fantasy;
+}

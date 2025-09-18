@@ -1,0 +1,23 @@
+p {
+  font-family: Arial;
+  line-height: 2em;
+}
+h2 {
+  font-family: arial;
+  color: #000000;
+}
+i {
+  font-family: sans-serif;
+  color: white;
+  background-color: crimson;
+  padding: 5px;
+  border-radius: 50px;
+}
+i:hover {
+  font-family: sans-serif;
+  color: crimson;
+  background-color: wheat;
+  padding: 5px;
+  border-radius: 50px;
+  cursor: pointer;
+}

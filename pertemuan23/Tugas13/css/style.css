@@ -1,0 +1,45 @@
+.induk-gambar-buah {
+  display: inline-flex;
+  gap: 100px;
+}
+.gambar-buah {
+  background-color: #ffffff;
+  padding: 50px;
+  border-radius: 25px;
+  text-align: center;
+  border: 2px solid brown;
+  box-shadow: 2px 2px 5px brown;
+}
+.gambar-buah img {
+  width: 250px;
+  border-radius: 10px;
+  border: 2px solid brown;
+  transition: all 0.3s ease;
+}
+.gambar-buah img:hover {
+  border: 2px solid rgb(141, 141, 141);
+}
+.gambar-buah h1,
+.gambar-buah p {
+  font-family: system-ui;
+  color: black;
+  text-align: center;
+}
+.gambar-buah p {
+  border: 2px dashed brown;
+  border-radius: 100px;
+  padding: 5px;
+}
+.gambar-buah button {
+  padding: 10px 100px;
+  border-radius: 25px;
+  border: 2px solid brown;
+  background-color: brown;
+  color: white;
+}
+.gambar-buah button:hover {
+  background-color: white;
+  color: brown;
+  border: 2px solid brown;
+  transition: all 0.3s ease;
+}

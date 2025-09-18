@@ -1,0 +1,23 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+h1,
+h2,
+h3 {
+  color: #10aa4b;
+  font-family: system-ui;
+  text-transform: capitalize;
+}
+p {
+  color: white;
+  font-family: system-ui;
+}
+body {
+    background: linear-gradient(100deg, #252525 50%, #10aa4b 50%);
+}
+footer {
+  color: white;
+  font-family: system-ui;
+}

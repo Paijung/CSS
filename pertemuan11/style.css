@@ -1,0 +1,11 @@
+h2 {
+  color: brown;
+  font-family: "Franklin Gothic Medium";
+}
+.bg-wheat {
+  background-color: wheat;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#header {
+  background-color: wheat;
+}

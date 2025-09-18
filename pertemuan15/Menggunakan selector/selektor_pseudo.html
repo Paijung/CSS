@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      button {
+        font-family: system-ui;
+        padding: 10px;
+        background-color: brown;
+        color: bisque;
+        font-weight: bold;
+        text-transform: uppercase;
+        border: none;
+        transition: all 0.3s ease;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: bisque;
+        color: brown;
+      }
+      button:active {
+        background-color: brown;
+        color: bisque;
+        transition: none;
+      }
+      input[type="text"] {
+        color: brown;
+        background-color: bisque;
+        padding: 10px;
+        border-color: brown;
+        border-radius: 10px;
+      }
+      h1::after {
+        content: "(after)";
+        font-size: 16px;
+        color: brown;
+      }
+      h1::before {
+        content: "(before)";
+        font-size: 16px;
+        color: brown;
+      }
+      h2::first-letter {
+        color: brown;
+      }
+      p::first-line {
+        color: brown;
+      }
+      .home {
+        text-decoration: none;
+        background-color: brown;
+        padding: 10px;
+        color: bisque;
+        font-family: system-ui;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+        cursor: pointer;
+      }
+      .home:hover {
+        background-color: bisque;
+        color: brown;
+      }
+      .home2 {
+        text-decoration: none;
+        background-color: bisque;
+        padding: 10px;
+        color: brown;
+        font-family: system-ui;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+        cursor: pointer;
+      }
+      .home2:hover {
+        background-color: brown;
+        color: bisque;
+      }
+    </style>
+  </head>
+  <body>
+    <button>Hover</button>
+    <input type="text" name="name" placeholder="Nama anda" />
+    <h1>Halo</h1>
+    <h2>halo</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+      perspiciatis iure minima repellendus, libero ex aut, optio fuga totam
+      officia quidem! Quisquam nihil aliquid ipsa exercitationem? Tempore
+      deserunt eaque dolorem.
+    </p>
+    <a href="" class="home">Home</a>
+    <a href="" class="home2">Home</a>
+  </body>
+</html>
