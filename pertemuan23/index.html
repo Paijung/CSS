@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>4 Container Static Inline-Block</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+      text-align: center; /* supaya box rata tengah */
+    }
+
+    .box1 {
+      display: inline-block;   /* inline-block = sejajar */
+      width: 150px;
+      height: 150px;
+      margin: 10px;            /* jarak antar box */
+      background: #2d966e;
+      color: white;
+      font-weight: bold;
+      line-height: 150px;      /* trik buat teks di tengah */
+      border-radius: 10px;
+    }
+    .box2 {
+      display: inline-flex;
+      width: 150px;
+      height: 150px;
+      margin: 10px;            /* jarak antar box */
+      background: #2d966e;
+      color: white;
+      font-weight: bold;
+      line-height: 150px;      /* trik buat teks di tengah */
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box1">Box 1</div>
+  <div class="box1">Box 2</div>
+  <div class="box1">Box 3</div>
+  <div class="box1">Box 4</div>
+  <hr>
+  <div class="box2">Box 1</div>
+  <div class="box2">Box 2</div>
+  <div class="box2">Box 3</div>
+  <div class="box2">Box 4</div>
+
+</body>
+</html>
