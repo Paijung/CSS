@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Float vs Flexbox</title>
+  <style>
+    .container {
+      border: 2px solid #333;
+      padding: 10px;
+      margin-bottom: 30px;
+    }
+
+    /* clearfix untuk mengatasi float */
+    .container::after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+
+    .left {
+      float: left;
+      width: 50%;
+      height: 120px;
+      background: lightblue;
+    }
+
+    .right {
+      float: right;
+      width: 50%;
+      height: 120px;
+      background: lightgreen;
+    }
+  </style>
+</head>
+<body>
+  <h2>🔹 Layout dengan Float</h2>
+  <div class="container">
+    <div class="left">Kiri (float: left)</div>
+    <div class="right">Kanan (float: right)</div>
+  </div>
+</body>
+</html>
+
+<hr>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Float vs Flexbox</title>
+  <style>
+    .flex-container {
+      display: flex;
+      border: 2px solid #333;
+      padding: 10px;
+      gap: 10px; /* jarak antar elemen */
+    }
+
+    .flex-item {
+      flex: 1; /* otomatis sama besar */
+      height: 120px;
+    }
+
+    .blue {
+      background: lightblue;
+    }
+
+    .green {
+      background: lightgreen;
+    }
+  </style>
+</head>
+<body>
+  <h2>🔹 Layout dengan Flexbox</h2>
+  <div class="flex-container">
+      <div class="flex-item blue">Kiri (flexbox)</div>
+      <div class="flex-item green">Kanan (flexbox)</div>
+  </div>
+</body>
+</html>
+
+
