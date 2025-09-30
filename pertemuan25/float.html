@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Float vs Flexbox</title>
+    <style>
+      body {
+        margin: 20px;
+        font-family: Arial, sans-serif;
+      }
+      h2 {
+        color: #2d966e;
+        margin-top: 40px;
+      }
+      .float-container {
+        padding: 10px;
+        border: 2px solid #2d966e;
+      }
+      .float-box {
+        padding: 20px;
+        text-align: center;
+        width: 30%;
+        float: left;
+        margin-right: 10px;
+        background: #eafaf1;
+      }
+      .float-text {
+        overflow: hidden;
+      }
+      .float-container::after {
+        clear: both;
+        content: '';
+        display: table;
+      }
+      .flex-container {
+        margin-top: 20px;
+        display: flex;
+        gap: 10px;
+        border: 2px solid #2d966e;
+        padding: 10px;
+      }
+      .flex-box {
+        padding: 20px;
+        width: 30%;
+        text-align: center;
+        background: #eafaf1;
+      }
+      .flex-text {
+        flex: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Float vs Flexbox</h1>
+    <h2>🔹 Float Layout (jadul)</h2>
+    <div class="float-container">
+      <div class="float-box">Box Kiri (float left)</div>
+      <div class="float-text">
+        <p>
+          Ini teks panjang yang akan mengisi sisa ruang di sebelah kanan box
+          kiri. Float digunakan untuk membuat elemen "mengapung" ke kiri. Tapi
+          cara ini sering bikin masalah seperti kontainer collapse.
+        </p>
+      </div>
+    </div>
+    <h2>🔹 Flexbox Layout (modern)</h2>
+    <div class="flex-container">
+      <div class="flex-box">Box Kiri (flex item)</div>
+      <div class="flex-text">
+        <p>
+          Ini teks panjang yang mengisi sisa ruang. Dengan Flexbox lebih mudah
+          mengatur posisi, jarak antar elemen, dan responsive layout tanpa perlu
+          hack clearfix.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

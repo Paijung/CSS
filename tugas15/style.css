@@ -5,55 +5,55 @@
   justify-content: center;
 }
 .card-product {
-  display: inline-block;
-  box-sizing: border-box;
-  width: 320px;
-  padding: 10px;
   border: 2px solid brown;
   border-radius: 25px;
-  margin: 10px;
-  text-align: center;
+  box-sizing: border-box;
+  display: inline-block;
   font-family: system-ui;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 320px;
 }
 .card-product button {
-  padding: 10px 25%;
-  border-radius: 25px;
-  border: none;
-  color: white;
   background-color: brown;
   border: 1px solid brown;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  padding: 10px 25%;
   transition: all 0.3s ease;
 }
 .card-product button:hover {
-  transform: translateY(-5px);
-  color: brown;
   background-color: white;
   border: 1px solid brown;
+  color: brown;
+  transform: translateY(-5px);
 }
 
 /* card feedback */
 
 .card-feedback {
-  display: inline-block;
-  box-sizing: border-box;
-  width: 400px;
   padding: 20px;
+  font-family: system-ui;
+  display: inline-block;
+  width: 400px;
+  box-sizing: border-box;
   border: 2px solid brown;
   border-radius: 25px;
   margin: 10px;
   text-align: left;
-  font-family: system-ui;
 }
 .card-feedback .user {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
+  align-items: center;
+  display: inline-flex;
+  gap: 10px;
 }
 .card-feedback .user img {
-    width: 50px;
-    border: 2px solid brown;
-    border-radius: 50px;
+  border: 2px solid brown;
+  border-radius: 50px;
+  width: 50px;
 }
 .rating img {
-    width: 15px;
+  width: 15px;
 }

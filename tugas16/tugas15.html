@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            height: 200vh;
+        }
+        header {
+            position: sticky;
+            top: 0;
+            background-color: brown;
+            color: white;
+            padding: 25px;
+            text-align: center;
+            font-family: system-ui;
+            text-transform: uppercase;
+            z-index: 100;
+        }
+        .section1 {
+            display: flex;
+            justify-content: center;
+        }
+        .card {
+            border: 1px solid black;
+            width: 650px;
+            text-align: center;
+            font-family: system-ui;
+            padding: 25px;
+        }
+        .card img {
+            width: 600px;
+        }
+        .card .tag {
+            position: relative;
+            float: right;
+            top: 10px;
+            background-color: brown;
+            width: 75px;
+            height: 25px;
+            color: white;
+            z-index: 10;
+        }
+        .box-a {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            background-color: brown;
+            color: white;
+        }
+        .box-b {
+            position: relative;
+            top: -100px;
+            right: -100px;
+            width: 200px;
+            height: 200px;
+            background-color: crimson;
+            color: white;
+            z-index: 10;
+        }
+    </style>
+  </head>
+  <body>
+    <header><p>header</p></header>
+    <section class="section1">
+        <div class="card">
+            <p class="tag">NEW</p>
+          <img src="54d57d87f7fd99d604ab0fb6fb5485d1.jpg" alt="sekolah" />
+          <h1>sekolah abazur</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+            officiis, reprehenderit nemo voluptates ipsum in vero corrupti iusto
+            neque temporibus ut dolor incidunt placeat quae, recusandae, debitis
+            enim blanditiis ab. Saepe quisquam magni similique doloremque earum
+            tempore, iure adipisci ipsam aliquam. Molestias neque aperiam illo
+            recusandae magni! Quisquam obcaecati laboriosam excepturi ipsam
+            voluptatibus ratione rem? Accusantium voluptatem esse quia quasi vel
+            obcaecati eum sit molestiae repellat, odit nesciunt, placeat omnis
+            consequuntur, autem quas! Officiis id animi quidem quos laborum eius,
+            iste dolorum sapiente obcaecati ratione delectus dolores culpa. Facilis
+            facere fugit vel quaerat. Culpa minima hic quod sequi veniam expedita.
+          </p>
+        </div>
+    </section>
+    <div class="box">
+      <div class="box-a">a</div>
+      <div class="box-b">b</div>
+    </div>
+  </body>
+</html>
