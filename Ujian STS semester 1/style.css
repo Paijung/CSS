@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --font-family: system-ui;
+  --color-H-F: rgb(50, 109, 197);
+  --color-header: white;
+  --color-box: white;
+  --color-heading: cadetblue;
+  --color-bg: darkturquoise;
+}
+body {
+  background-color: var(--color-bg);
+}
+#header {
+  font-family: var(--font-family);
+  background-color: var(--color-H-F);
+  color: var(--color-header);
+  padding: 25px;
+  text-align: center;
+  line-height: 50px;
+}
+.section {
+  display: flex;
+  justify-content: center;
+}
+.box {
+  background-color: var(--color-box);
+  padding: 50px;
+  width: 50%;
+  margin: 20px;
+  border-radius: 25px;
+  font-family: var(--font-family);
+}
+
+.box1 {
+  text-align: center;
+}
+.box1 img {
+  border-radius: 1000px;
+}
+
+.box2 h2 {
+  color: var(--color-heading);
+}
+
+.box3 h2 {
+  color: var(--color-heading);
+}
+
+#footer {
+  font-family: var(--font-family);
+  background-color: var(--color-H-F);
+  color: var(--color-header);
+  padding: 25px;
+  text-align: center;
+}
