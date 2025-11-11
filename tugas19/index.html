@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overflow</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box {
+            background-color: coral;
+            color: white;
+            padding: 25px;
+            font-family: system-ui;
+            text-transform: capitalize;
+            width: 150px;
+            overflow: scroll;
+            overflow-x: hidden;
+            height: 100vh;
+            scrollbar-color: coral honeydew;
+        }
+        .box div {
+            padding-top: 10px;
+            border-bottom: 2px solid honeydew;
+            transition: all 0.5s ease;
+            font-size: large;
+        }
+        .box div:hover {
+            background-color: honeydew;
+            border-radius: 15px 0px;
+            color: coral;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div><p>item 1</p></div>
+        <div><p>item 2</p></div>
+        <div><p>item 3</p></div>
+        <div><p>item 4</p></div>
+        <div><p>item 5</p></div>
+        <div><p>item 6</p></div>
+        <div><p>item 7</p></div>
+        <div><p>item 8</p></div>
+        <div><p>item 9</p></div>
+        <div><p>item 10</p></div>
+        <div><p>item 11</p></div>
+        <div><p>item 12</p></div>
+        <div><p>item 13</p></div>
+        <div><p>item 14</p></div>
+        <div><p>item 15</p></div>
+        <div><p>item 1</p></div>
+        <div><p>item 2</p></div>
+        <div><p>item 3</p></div>
+        <div><p>item 4</p></div>
+        <div><p>item 5</p></div>
+        <div><p>item 6</p></div>
+        <div><p>item 7</p></div>
+        <div><p>item 8</p></div>
+        <div><p>item 9</p></div>
+        <div><p>item 10</p></div>
+        <div><p>item 11</p></div>
+        <div><p>item 12</p></div>
+        <div><p>item 13</p></div>
+        <div><p>item 14</p></div>
+        <div><p>item 15</p></div>
+    </div>
+</body>
+</html>
